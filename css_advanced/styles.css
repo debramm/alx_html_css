@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #fff;
+    background: #000;
+}
+
+/* --------------------------
+   HEADER
+--------------------------- */
+.header {
+    width: 100%;
+    padding: 20px 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 160px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* --------------------------
+   HERO SECTION
+--------------------------- */
+
+.hero-section {
+    background: url("images/Object.png") no-repeat center center/cover;
+    height: 1000px;
+    padding-top: 180px;
+    text-align: center;
+}
+
+/* Title */
+.hero-title {
+    font-size: 110px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Tags row */
+.hero-tags {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+/* Button */
+.hero-btn {
+    background-color: #C271FF;
+    color: #fff;
+    padding: 18px 40px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    opacity: 0.9;
+}
+
+/* --------------------------
+   LEARN FROM THE PROS
+--------------------------- */
+
+.pros {
+    margin-top: 120px;
+}
+
+.pros-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #C271FF;
+    margin-bottom: 60px;
+}
+
+/* Four-card grid */
+.pros-grid {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.pro-card {
+    text-align: center;
+    width: 180px;
+}
+
+.pro-card img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.pro-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.pro-card p {
+    font-size: 15px;
+    opacity: 0.8;
+}
