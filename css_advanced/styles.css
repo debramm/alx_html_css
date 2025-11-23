@@ -316,3 +316,169 @@ body {
         grid-template-columns: 1fr;
     }
 }
+.membership {
+  background-color: #061225;
+  text-align: center;
+  padding: 80px 20px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+/* Title */
+.membership h2 {
+  font-size: 28px;
+  margin-bottom: 60px;
+  font-weight: 500;
+}
+
+.membership h2 span {
+  color: #C17CFF; /* Purple from Figma */
+  font-weight: 600;
+}
+
+/* Features row (use flexbox for horizontal layout) */
+.features {
+  display: flex;
+  flex-direction: row;   /* THIS MAKES IT HORIZONTAL */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+  flex-wrap: nowrap;     /* Prevents items from wrapping */
+  margin-bottom: 60px;
+}
+
+/* Individual feature boxes */
+.feature {
+  width: 200px;
+  text-align: center;
+}
+
+.feature img {
+  width: 40px;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 13px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+/* Button */
+.cta {
+  background: linear-gradient(90deg, #C17CFF 0%, #E774FF 100%);
+  border: none;
+  padding: 12px 36px;
+  border-radius: 25px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  transition: opacity 0.3s ease;
+}
+
+.cta:hover {
+  opacity: 0.85;
+}
+.faq {
+    
+    background-color: #fff;
+    padding: 100px 40px;
+    color: #0c0101;
+    text-align: center;
+}
+
+.faq-title {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 80px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.faq-column {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.faq-item h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.faq-item p {
+    font-size: 15px;
+    opacity: 0.85;
+    line-height: 1.6;
+    text-align: left;
+}
+
+@media (max-width: 800px) {
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.footer {
+    background: #071629; /* Same dark blue as Figma */
+    padding: 70px 0 40px;
+    color: white;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+    /* Center horizontally when small */
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.footer-socials i {
+    font-size: 22px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.footer-socials i:hover {
+    opacity: 0.7;
+}
+
+.footer-copy {
+    font-size: 14px;
+    opacity: 0.6;
+}
