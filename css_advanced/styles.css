@@ -54,6 +54,7 @@ body {
     height: 1000px;
     padding-top: 180px;
     text-align: center;
+    padding-bottom: 180px;
 }
 
 /* Title */
@@ -135,4 +136,46 @@ body {
 .pro-card p {
     font-size: 15px;
     opacity: 0.8;
+}
+
+.quote-section {
+    background-color: #C271FF;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 900px;        
+    width: 100%;
+    padding: 0 20px;         /* prevents overflow on small screens */
+}
+
+/* avatar */
+.quote-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* text block */
+.quote-content blockquote {
+    max-width: 520px;        /* same width as Figma */
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.quote-content h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quote-content p {
+    font-size: 14px;
+    opacity: 0.9;
 }
