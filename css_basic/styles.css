@@ -5,6 +5,8 @@ main {
     flex: auto; 
     gap: 1rem; 
     padding: 1rem;
+    background-color: #fff;
+
 }
 
 body {
@@ -12,23 +14,86 @@ body {
     flex-direction: column;
     min-height: 100vh; 
     margin: 0;
+    font-family: 'Josefin Sans', serif;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 header, footer {
     padding: 1rem;
     background-color: #f4f4f4;
 }
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header li {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+header li.logo {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #F80002;
+    font-weight: bold;
+}
 article {
     flex: 2;
     overflow-y: auto; 
     padding: 1rem;
     background-color: #e0f7fa;
+    border-radius: 12px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+}
+article h1 {
+    color: #F80002;
+    margin-bottom: 15px;
+}
+
+article h2, article h3 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+article p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+article table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+article th, article td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+article th {
+    background-color: #b2ebf2;
 }
 aside {
     flex: 1;
     overflow-y: auto; 
     padding: 1rem;
     background-color: #ffe0b2;
+    border-radius: 12px;
+    font-size: 0.95rem;
 }
 table {
     width: 100%;
@@ -44,7 +109,9 @@ th, td {
     padding: 0.5rem;
     text-align: left;
 }
-@media (max-width: 800px) {
+@media (max-width: 800px) 
+
+{
   body.works_on_smartphone {
     display: block;
   }
