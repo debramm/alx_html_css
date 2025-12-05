@@ -151,3 +151,72 @@ body {
   }
 }
 
+/* WHAT WE DO SECTION ---------------------------------- */
+
+.what-we-do {
+  background: #fff;
+  color: #333;
+  padding: 90px 40px;
+  text-align: center;
+}
+
+.what-we-do h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  max-width: 750px;
+  margin: 0 auto 60px;
+  font-size: 15px;
+  line-height: 1.7;
+  opacity: 0.8;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  width: 190px;
+  text-align: center;
+}
+
+.feature-card .icon {
+  font-size: 60px;
+  color: #ff5168;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .features {
+    gap: 40px;
+  }
+
+  .feature-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 450px) {
+  .feature-card {
+    width: 100%;
+  }
+}
