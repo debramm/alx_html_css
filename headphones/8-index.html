@@ -4,17 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>webpage</title>
-  <link rel="stylesheet" href="6-styles.css">
+  <link rel="stylesheet" href="8-styles.css">
+  <script  defer src="8-script.js"></script>
 </head>
 
 <body>
 
-  <!-- HEADER + HERO (your existing code) -->
+  <!-- HEADER + HERO  -->
   <header class="header">
     <div class="logo">
       <img src="images-2/logo_headphones.png" alt="Logo" />
     </div>
 
+    <!-- NAVIGATION -->
     <nav class="nav">
       <ul>
         <li><a href="#">what we do</a></li>
@@ -23,7 +25,8 @@
       </ul>
     </nav>
 
-    <div class="hamburger">
+    <!-- HAMBURGER -->
+    <div class="hamburger" id="hamburger">
       <span></span>
       <span></span>
       <span></span>
@@ -45,82 +48,72 @@
 
   <!-- ✅ NEW SECTION: WHAT WE DO -->
   <section class="what-we-do">
-    <h2>What we do…</h2>
+  <h2>What we do…</h2>
 
-    <p class="section-description">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-      labore et dolore magna aliqua. Ut enim ad minim veniam...
-    </p>
+  <p class="section-description">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+    labore et dolore magna aliqua. Ut enim ad minim veniam...
+  </p>
 
-    <div class="features">
-      <!-- Feature 1 -->
-      <div class="feature-card">
-        <span class="icon holberton_school-icon-ic_sound"></span>
-        <h3>Lorem ipsum</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <!-- Feature 2 -->
-      <div class="feature-card">
-        <span class="icon holberton_school-icon-ic_video"></span>
-        <h3>Lorem ipsum</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <!-- Feature 3 -->
-      <div class="feature-card">
-        <span class="icon holberton_school-icon-ic_music"></span>
-        <h3>Lorem ipsum</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <!-- Feature 4 -->
-      <div class="feature-card">
-        <span class="icon holberton_school-icon-ic_hearing"></span>
-        <h3>Lorem ipsum</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
+  <div class="features">
+    <div class="feature-card animated">
+      <span class="icon holberton_school-icon-ic_sound bounce"></span>
+      <h3>Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
-  </section>
+
+    <div class="feature-card animated">
+      <span class="icon holberton_school-icon-ic_video bounce"></span>
+      <h3>Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <div class="feature-card animated">
+      <span class="icon holberton_school-icon-ic_music bounce"></span>
+      <h3>Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <div class="feature-card animated">
+      <span class="icon holberton_school-icon-ic_hearing bounce"></span>
+      <h3>Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+</section>
+
 <!-- OUR RESULTS SECTION -->
 <section class="our-results">
   <h2>Our results speak for themselves</h2>
 
   <p class="results-description">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit...
   </p>
 
   <div class="results-list">
-    <!-- Result 1 -->
     <div class="result-card">
-      <div class="pentagon">
+      <div class="pentagon spin">
         <span class="percent">+2%</span>
         <span class="text">Lorem ipsum dolor</span>
       </div>
     </div>
 
-    <!-- Result 2 -->
     <div class="result-card">
-      <div class="pentagon">
+      <div class="pentagon spin">
         <span class="percent">+2%</span>
         <span class="text">Lorem ipsum dolor</span>
       </div>
     </div>
 
-    <!-- Result 3 -->
     <div class="result-card">
-      <div class="pentagon">
+      <div class="pentagon spin">
         <span class="percent">+2%</span>
         <span class="text">Lorem ipsum dolor</span>
       </div>
     </div>
 
-    <!-- Result 4 -->
     <div class="result-card">
-      <div class="pentagon">
+      <div class="pentagon spin">
         <span class="percent">+2%</span>
         <span class="text">Lorem ipsum dolor</span>
       </div>
